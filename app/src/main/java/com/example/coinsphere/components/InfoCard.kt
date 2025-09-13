@@ -20,6 +20,7 @@ fun InfoCard(titulo: String, contenido: String, modifier: Modifier = Modifier) {
     Card(
         colors = CardDefaults.cardColors(containerColor = SurfaceColor),
         modifier = modifier.fillMaxWidth()
+            .padding(bottom = 10.dp)
     ) {
         Column (modifier = Modifier.padding(12.dp)) {
             Text(text = titulo, color = TextDim)

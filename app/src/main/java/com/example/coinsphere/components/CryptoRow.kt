@@ -32,7 +32,8 @@ fun CryptoRow(crypto: monedas, modifier: Modifier = Modifier) {
         shape = RoundedCornerShape(12.dp),
         modifier = modifier
             .fillMaxWidth()
-            .height(64.dp),
+            .height(64.dp)
+            .padding(bottom = 10.dp)
     ) {
         Row(
             modifier = Modifier
