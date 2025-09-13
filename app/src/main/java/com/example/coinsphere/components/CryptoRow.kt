@@ -22,6 +22,7 @@ import com.example.coinsphere.models.monedas
 import com.example.coinsphere.ui.theme.SurfaceColor
 import com.example.coinsphere.ui.theme.TextDim
 import com.example.coinsphere.ui.theme.TextMain
+import coil.compose.AsyncImage
 
 
 @Composable
